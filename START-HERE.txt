@@ -1,0 +1,18 @@
+LOU TV - Fresh Start (GitHub Desktop)
+
+This is the full native Android TV source project, with its folder structure intact.
+It also contains a local Git repository so GitHub Desktop can publish it without
+manual uploads, folder dragging, or workflow editing.
+
+1. Install GitHub Desktop on Mac: https://desktop.github.com/
+2. Extract this ZIP once, then open GitHub Desktop and sign in.
+3. In GitHub Desktop, choose File > Add Local Repository.
+4. Choose the extracted LOU-TV-CLEAN-START folder (not the ZIP).
+5. Click Publish repository. Use a new name, e.g. lou-tv-clean. Keep it private.
+6. Visit the repository in your browser, choose Actions, then the APK build.
+7. If successful, download the LOU-TV-debug-APK artifact.
+
+NOTE: This contains source code, not a compiled or verified APK. Do not
+replace Google TV's default launcher until this first build is tested.
+Bluetooth panel links to TV Bluetooth settings, and does not guarantee
+one-tap earbuds switching.
